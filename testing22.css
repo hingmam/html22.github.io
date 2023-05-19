@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial''Battambang', cursive;
+}
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bar1{
+    width: 100%;
+    float: left;
+    background-color: rgb(22, 3, 39);
+    padding: 10px;
+    
+}
+.logo-box{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo-box .logo{
+    width: 30%;
+    float: left;
+}
+.logo-box .logo img{
+height: 80px;
+float: left;
+}
+.logo-box .ads{
+    width: 70%;
+    float: left;
+}
+.logo-box .ads img{
+    height: 80px;
+    float: left;
+}
+.menu-bar{
+    width: 100%;
+    float: left;
+    background-color: rgba(50, 192, 15, 0.842);
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.menu ul li a i{
+margin-top: 5px;
+}
+.menu ul li a:hover{
+    background-color: rgb(0, 255, 13);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+    background-color: antiquewhite;
+    padding: 10px;
+    
+}
+.container .slide-box{
+    width: 70%;
+    float: left;
+    height: 580px;
+    padding-top: 2%;
+}
+.container .slide-box .box1{
+    width: 50%;
+     float: left;
+     background-color: aquamarine;
+     height: 50%;
+     margin-left: 2%;
+     padding-left: 10px;
+   margin: 0 auto;
+}
+
+.container .slide-box .box2{
+    width: 45%;
+     float: left;
+     background-color: rgb(192, 100, 154);
+     height: 50%;
+     margin-left: 4%;
+     margin-bottom: 5%;
+}
+.container .slide-box .title{
+    color: rgb(58, 175, 34);
+    padding: 5px 30px;
+    background-color: bisque;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-weight: bold;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.container .slide-box .box-text{
+    position: absolute;
+    width: 100%;
+    left:10;
+    bottom: 0;
+   color: rgb(43, 22, 163);
+    padding: 10;
+    transition: 0.5s;
+}
+.slide-box .box1:hover .box-text{
+    bottom: 20px;
+    color: brown;
+}
+.container .ads-box{
+    width: 28%;
+     float: left;
+     height: 580px;
+     margin-left: 2%;
+     margin-top: 20px;
+} 
+.container .ads-box ul{
+    list-style-type: none;
+    height: 100%;
+}
+.container .ads-box ul li{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.container .new-box-1 {
+    width: 100%;
+    height: 350px;
+    float: left;
+    margin-top: 60px;
+}
+.container .new-box-1 .title-box {
+    width: 100%;
+    float: left;
+    border-bottom: 4px solid rgb(109, 219, 6);
+}
+.container .new-box-1 .title-box .title {
+    color: rgb(228, 216, 216);
+    background-color: rgb(98, 235, 35);
+    float: left;
+    padding: 5px 30px 5px 20px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.container .new-box-1 .cnt-box{
+    width: 100%;
+    height: 100%;
+    float: left;
+   
+    box-shadow: 2px 2px 5px 0 red; 
+    padding: 2px;  
+}
+.container .new-box-1 .cnt-box .box1{
+    width: 30%;
+    height: 300px;
+    float: left;
+    background-color: rgb(247, 155, 247); 
+   
+}
+.container .new-box-1 .cnt-box .box1 .img-box{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: aqua;
+   overflow: hidden;
+}
+.container .new-box-1 .cnt-box .box1 .img-box .bg-img{
+width: 100%;
+height: 90%;
+float: left;
+transition: 0.3s;
+-moz-box-Shadow:inset 0 0 10px rgb(199, 181, 165);
+-webkit-box-Shadow:inset 0 0 10px rgb(4, 0, 255);
+ -box-Shadow:inset 0 0 10px rgb(251, 255, 0);;
+}
+.container .new-box-1 .cnt-box .box1:hover .bg-img{
+   transform: scale(1.60);
+}
+.container .new-box-1 .cnt-box .box1 .img-box .text-box{
+width: 100%;
+height: 50%;
+float: left;
+}
+.container .new-box-1 .cnt-box .box2{
+    width: 69%;
+    height: 300px;
+    float: left;
+    background-color: rgb(132, 233, 236);
+    margin-left: 10px;
+}
+.container .new-box-1 .cnt-box .box2 ul{
+   list-style-type: none;
+   height: 100%; 
+}
+.container .new-box-1 .cnt-box .box2 ul li{
+    float: left;
+    width: 23%;
+    height: 47%;
+    margin: 1%;
+    background-color: bisque;
+
+}
+.container .new-box-1 .cnt-box .box2 ul li .img-box{
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+
+
+
+
+
+
